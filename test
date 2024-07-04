@@ -1,0 +1,7 @@
+echo "# vicop7" >> test.md
+git init
+git add test.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/vicop7/vicop7.git
+git push -u origin main
